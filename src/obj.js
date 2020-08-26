@@ -11,7 +11,7 @@ export const isType = (obj, type) => {
 };
 
 export const deepClone = (obj) => {
-  return deepClone(obj);
+  return clone(obj);
 };
 
 const clone = (parent) => {
